@@ -1,0 +1,19 @@
+.lsp-container {
+    width: 20%;
+}
+.rsp-container {
+    width: 80%;
+}
+.person-panel {
+    width: 100%;
+}
+table {
+    display: table;
+}
+.row {
+    margin: 10px;
+}
+button {
+    width: auto;
+    text-overflow: ellipsis;
+}

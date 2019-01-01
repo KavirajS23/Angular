@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-xs-4 lsp-container">
+    <app-lsp (valueChange)="entityClicked($event)"></app-lsp>
+  </div>
+  <div class="col-xs-8 rsp-container">
+    <app-rsp [selectedEntity]="clickedEntity"></app-rsp>
+  </div>
+</div>

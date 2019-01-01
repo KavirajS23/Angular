@@ -1,0 +1,8 @@
+<div class="container person-panel" *ngIf="selectedEntity == 'person'; else address">
+  <app-person-panel></app-person-panel>
+</div>
+<ng-template #address>
+  <div class="container address-panel">
+    <app-address-panel></app-address-panel>
+  </div>
+</ng-template>
